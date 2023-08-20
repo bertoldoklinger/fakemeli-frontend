@@ -1,7 +1,7 @@
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 
 
-function CartButton() {
+export function CartButton() {
   return ( 
     <button className="text-2xl flex p-2 border-none cursor-pointer relative ml-5" type="button" >
       <AiOutlineShoppingCart className="w-[30px] h-[30px]"/>
@@ -10,4 +10,3 @@ function CartButton() {
   );
 }
 
-export default CartButton;
