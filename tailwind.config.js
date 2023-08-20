@@ -8,8 +8,11 @@ export default {
     extend: {
       fontFamily: {
         'montserrat': ['Montserrat', 'sans-serif']
-      }
-    },
-    plugins: [],
+      },
+      gridTemplateColumns: {
+        'auto-1fr': 'repeat(auto-fill, minmax(200px,1fr))',
+      },
+      plugins: [],
+    }
   }
-}
+};
