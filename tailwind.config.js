@@ -12,6 +12,15 @@ export default {
       gridTemplateColumns: {
         'auto-1fr': 'repeat(auto-fill, minmax(200px,1fr))',
       },
+      colors: {
+        'trueGray-200': '#ebebeb'
+      },
+      animation: {
+        'slide-to-left': 'transform: translate(110%,0)',
+        'transition': 'transition: all 400ms ease',
+        'slide-to-right': 'transform: translate(0,0)',
+
+      },
       plugins: [],
     }
   }
