@@ -6,12 +6,12 @@ import './index.css'
 
 function App() {
   return (
-    <div className='w-full h-auto bg-trueGray-200'>
+    <div className="w-full h-auto bg-trueGray-200">
       <Provider>
         <Header />
         <Products />
-        <Cart /> 
-    </Provider>
+        <Cart />
+      </Provider>
     </div>
   )
 }
