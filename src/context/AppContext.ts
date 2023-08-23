@@ -1,5 +1,6 @@
-import { createContext } from 'react';
-import { Product } from '../components/Products/Products';
+/* eslint-disable prettier/prettier */
+import { createContext } from 'react'
+import { Product } from '../components/Products/Products'
 
 interface IAppContext {
   products: Product[]
@@ -20,9 +21,6 @@ const defaultAppContext: IAppContext = {
   setCartItems: () => { },
   isCartVisible: false,
   setIsCartVisible: () => { },
-};
-
-
+}
 
 export const AppContext = createContext<IAppContext>(defaultAppContext)
-
